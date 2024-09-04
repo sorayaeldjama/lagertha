@@ -1,0 +1,17 @@
+@import 'src/styles/_vars.scss';
+
+.welcome {}
+
+.password {
+  margin-left: 4px;
+  margin-top: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+

@@ -1,0 +1,18 @@
+@import 'src/styles/_vars.scss';
+
+.newlinkuploadfile {
+    min-height: 200px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}

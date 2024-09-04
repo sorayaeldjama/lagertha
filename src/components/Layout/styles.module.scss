@@ -1,0 +1,39 @@
+@import 'src/styles/_vars.scss';
+
+.layout {
+  // background-color: $light;
+  display: flex;
+  width: 100vw;
+
+}
+
+.main {
+  min-height: 100vh;
+  overflow: auto;
+  width: 100%;
+}
+
+.bottomNav {
+  height: 80px;
+  width: 100vw;
+}
+
+@media (max-width: 800px) {
+  .main {
+    margin-left: unset;
+    margin-bottom: 40px;
+  }
+
+}
+
+.sidebar {
+  // width: 250px;
+  // /* Ajustez la largeur de la barre latérale selon vos besoins */
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // height: 100vh;
+  // /* Pour occuper toute la hauteur de la vue */
+  // background-color: #f0f0f0;
+  // /* Couleur de fond de la barre latérale */
+}

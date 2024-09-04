@@ -1,0 +1,26 @@
+@import 'src/styles/_vars.scss';
+
+.newlinkform {
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  justify-content: space-between;
+}
+
+.nextButton {
+  margin-left: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.formAndNextBack {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.nextBackBar {}

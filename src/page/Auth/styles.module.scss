@@ -1,0 +1,59 @@
+@import 'src/styles/_vars.scss';
+
+.home{
+  display: flex;
+}
+// .login {
+//   height:100vh ;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+// .form{
+//   display: flex;
+//   flex-direction: column;
+//   margin-bottom: 800px;
+//   margin-left: 800px;
+//   Button{
+//     width: 100%;
+//   }
+// }
+// .loginSignIn{
+//   margin-top: 80px;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-top: 80px;
+  Button {
+    width: 100%;
+  }
+}
+.loginSignIn{
+  margin-top: 80px;
+  margin-left: 32px;
+}
+
+.signUpForm{
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-top: 80px;
+
+
+  Button{
+    width: 100%;
+  }
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}

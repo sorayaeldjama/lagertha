@@ -1,0 +1,30 @@
+@import 'src/styles/_vars.scss';
+
+.sidebar {
+}
+
+.slectFolder {
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+.isActivePage {
+  // box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #F0F4F8;
+}
+
+.isNotActivePage {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.iconButton {
+  background-color: #F0F0F0; /* couleur de fond */
+  border: none; /* suppression de la bordure */
+  border-radius: 50%; /* forme de cercle */
+  padding: 5px; /* espace intérieur */
+  cursor: pointer; /* curseur de la souris */
+}
+
+.icon-button:hover {
+  background-color: #D0D0D0; /* couleur de fond au survol */
+}

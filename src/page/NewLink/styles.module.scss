@@ -1,0 +1,58 @@
+@import 'src/styles/_vars.scss';
+
+// .newlink {
+//   // display: flex;
+//   // flex-direction: column;
+//   // justify-content: center;
+//   height: 100vh;
+
+// }
+
+.textfield {
+  margin-bottom: 8px;
+}
+
+.createLink {
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.createLink {
+  margin-top: 16px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center
+}
+
+
+
+.titleNewLink {
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 32px;
+  margin-top: 8px;
+}
+
+.nextButton {
+  margin-left: 40px;
+}
+
+.formAndNextBack {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.linkForm {
+  margin-bottom: 40px;
+}
+
+.titleCreateLink {
+  padding-bottom: 32px;
+}
